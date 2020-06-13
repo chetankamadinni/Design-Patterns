@@ -1,5 +1,5 @@
 target/
-/bin/
+bin/
 !.mvn/wrapper/maven-wrapper.jar
 .metadata
 .sonarlint
