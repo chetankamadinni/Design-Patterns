@@ -12,7 +12,8 @@ public class ShapeFactory {
 			return circles.get(color);
 		}
 		System.out.println("Creating new Circle with color : " + color);
-		circles.put(color, new Circle(color));
-		return circles.get(color);
+		Circle circle = new Circle(color);
+		circles.put(color, circle);
+		return circle;
 	}
 }
